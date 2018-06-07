@@ -1,0 +1,94 @@
+ @import url("https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300");
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  ul{
+      list-style: none;
+  }
+  a{
+      text-decoration: none;
+      font-family: 'Montserrat', sans-serif;
+      color: white;
+  } 
+  /*container*/
+  
+  article nav{
+      position: relative;
+      width: 100%;
+      height: 637px;
+      overflow: hidden;
+ }
+
+ article nav ul{
+     position: relative;
+     top: 6px;
+     right: 0;
+     margin-left: 870px;
+     display: table;   
+}
+   article nav ul li{
+      position: relative;
+      display: inline-block;
+      margin-left: 20px;
+      height: 10px;
+  }
+  article nav ul li a {
+      font-size: 16px;
+  }
+
+  article nav ul li :article a, active{
+      color:  rgb(0,123,255);
+      font-size: 14,5px;
+      font-weight: bold;
+  }
+
+  article nav img {
+      position: relative;
+      top: 20px;
+      left: 81px;
+      width: 41px;
+      height: 41px;
+      float: left;
+  }
+  article nav p {
+      position: relative;
+      top: 30px;
+      left: 90px;
+      color: white;
+      font-size: 16px;
+      font-family: 'Titillium web', sans-serif;
+  }
+  article nav video{
+      position:absolute;
+      top: 0;
+      left: 0;
+      margin: 0;
+      width: 100%;  
+  }
+
+  article nav h1, article nav h2, article nav h3{
+      position: relative;
+      color: white;
+  }
+  article nav h1{
+      top: 185px;
+      left: 500px;
+      margin: 0;
+      width: 100%;
+  }
+  article nav h2{
+    top: 186px;
+    left: 587px;
+    margin: center;
+    width: 100%;
+  }
+  article nav h3{
+    top: 188px;
+    left: 615px;
+    margin: 0;
+    width: 100%;
+  }
+
+
